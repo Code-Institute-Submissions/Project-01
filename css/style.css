@@ -1,0 +1,15 @@
+/* general styling */
+.navbar {
+ background-color: #0A1F8F;
+}
+
+
+
+/* Small size */
+@media only screen and (max-width: 434px) {
+.logo {
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
+}
