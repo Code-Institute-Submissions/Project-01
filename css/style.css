@@ -33,6 +33,9 @@
     .fa-bars{
         color:#0A1F8F!important;
     }
+    .carouselExampleIndicators{
+        position:absolute;
+    }
 /* navbar styling end */
 
 /* Small size */
