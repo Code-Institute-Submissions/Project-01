@@ -3,7 +3,26 @@
  background-color: #0A1F8F;
 }
 
+.btn-outline-success-inline{
+   background-color: white;
+}
 
+.form-control-inline{
+    border-style: none;
+    border-radius: 3px;
+}
+.placeholder{
+    margin-left: 2px;
+}
+.nav-link{
+    color:white;
+}
+.navbar-toggler col.{
+    border-bottom-color: white;
+}
+.navbar-toggler-icon{
+    color:white;
+}
 
 /* Small size */
 @media only screen and (max-width: 434px) {
