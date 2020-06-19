@@ -1,28 +1,39 @@
 /* general styling */
-.navbar {
- background-color: #0A1F8F;
-}
+/* navbar styling start*/
+    .navbar {
+    background-color: #0A1F8F;
+    }
 
-.btn-outline-success-inline{
-   background-color: white;
-}
-
-.form-control-inline{
-    border-style: none;
-    border-radius: 3px;
-}
-.placeholder{
-    margin-left: 2px;
-}
-.nav-link{
-    color:white;
-}
-.navbar-toggler{
+    .btn-outline-success-inline{
     background-color: white;
-}
-.fa-bars{
-    color:#0A1F8F!important;
-}
+    }
+    .btn-outline-success-inline:hover{
+    background-color: #2846F0;
+    }
+    .form-control-inline{
+        border-style: none;
+        border-radius: 3px;
+    }
+    .placeholder{
+        margin-left: 2px;
+    }
+    .nav-link{
+        color:white;
+    }
+    .navbar-toggler{
+        background-color: white;
+        margin-bottom:none;
+    }
+    .navbar-toggler-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+    .fa-bars{
+        color:#0A1F8F!important;
+    }
+/* navbar styling end */
 
 /* Small size */
 @media only screen and (max-width: 434px) {
