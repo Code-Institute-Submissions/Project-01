@@ -43,6 +43,13 @@
     #carouselExampleIndicators{
         width:372px;
     }
+/* Jumbotron start  */
+    .jumbotron-fluid{
+        background-color:red;
+        /* background-image: url(image/jumbo-img.jpg);
+        background-size: fill; */
+    }
+/* Jumbotron end */
 /* navbar styling end */
 .l{
     height:1000px;
@@ -54,6 +61,3 @@
     justify-content: center;
     width:100%;
   }
-.slider{
-     display:none;
-}
