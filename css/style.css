@@ -9,13 +9,16 @@
     }
 
     .btn{
-        color: white!important;
+        color: white;
     }
     .btn-outline-success-inline{
-    background-color: white;
+    background-color:  #050440;
+    }
+    .btn:hover{
+        color:#081870;
     }
     .btn-outline-success-inline:hover{
-    background-color: #081870;
+    background-color: white;
     }
     .form-control-inline{
         border-style: none;
@@ -45,6 +48,9 @@
     height:800px;
 }
 
+.jumbotron{
+    background-color: red;
+}
 /* End Slider */
 
 /* navbar styling end */
