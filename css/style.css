@@ -40,19 +40,19 @@
     .fa-bars{
         color:#0A1F8F!important;
     }
-    #carouselExampleIndicators{
-        width:372px;
-    }
-/* Jumbotron start  */
-    .jumbotron-fluid{
-        background-color:red;
-        /* background-image: url(image/jumbo-img.jpg);
-        background-size: fill; */
-    }
-/* Jumbotron end */
+/* Start Slider */
+.carousel{
+    height:800px;
+}
+
+/* End Slider */
+
 /* navbar styling end */
 .l{
     height:1000px;
+}
+.backing{
+    background-color: rgba(10,10,10,0.5)
 }
 /* Small size */
 @media only screen and (max-width: 434px) {
