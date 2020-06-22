@@ -1,14 +1,21 @@
 /* general styling */
 /* navbar styling start*/
     .navbar {
-    background-color: #0A1F8F;
+    background-color: #081870;
+    }
+    .logo {
+    max-width:100%;
+    height:auto;
     }
 
+    .btn{
+        color: white!important;
+    }
     .btn-outline-success-inline{
     background-color: white;
     }
     .btn-outline-success-inline:hover{
-    background-color: #2846F0;
+    background-color: #081870;
     }
     .form-control-inline{
         border-style: none;
@@ -33,11 +40,13 @@
     .fa-bars{
         color:#0A1F8F!important;
     }
-    .carouselExampleIndicators{
-        position:absolute;
+    #carouselExampleIndicators{
+        width:372px;
     }
 /* navbar styling end */
-
+.l{
+    height:1000px;
+}
 /* Small size */
 @media only screen and (max-width: 434px) {
 .logo {
@@ -45,4 +54,6 @@
     justify-content: center;
     width:100%;
   }
+.slider{
+     display:none;
 }
