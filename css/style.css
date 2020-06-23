@@ -68,7 +68,14 @@
     background-color: rgba(8,24,112,0.1);
     padding:50px;
 }
-
+.selector{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height:250px;
+    width:721px;
+}
 /* Jumbotron end */
 /* Small size */
 @media only screen and (max-width: 434px) {
