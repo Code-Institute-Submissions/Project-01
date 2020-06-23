@@ -43,23 +43,33 @@
     .fa-bars{
         color:#0A1F8F!important;
     }
-/* Start Slider */
-.carousel{
-    height:800px;
-}
-
-.jumbotron{
-    background-color: red;
-}
-/* End Slider */
-
 /* navbar styling end */
-.l{
-    height:1000px;
+/* Slider Start */
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+.carousel-inner{
+    height:250px;
+    width:721px;
+}
+.d-block{
+    position: center!important;
+}
+/* Slider End */
+/* Jumbotron Start */
+.jumbotron{
+    background-image: url(../image/jumbo-img.jpg); 
+    background-size: fit;
+    background-size: cover;
+    background-position: center;>
 }
 .backing{
-    background-color: rgba(10,10,10,0.5)
+    background-color: rgba(8,24,112,0.1);
+    padding:50px;
 }
+
+/* Jumbotron end */
 /* Small size */
 @media only screen and (max-width: 434px) {
 .logo {
