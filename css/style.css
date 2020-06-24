@@ -73,7 +73,16 @@
     display: flex;
     justify-content: center;
 }
+.app-2{
+    display: flex;
+    justify-content: center;
+}
 .icons-display{
+    display: flex;
+    justify-content: space-around;
+    width: 721px;
+}
+.icons-display-2{
     display: flex;
     justify-content: space-around;
     width: 721px;
@@ -83,6 +92,12 @@
 }
 .icons-display{
     padding-top: 15px;
+}
+.row{
+    width:721px;
+}
+.topsection{
+    margin-top:30px!important;
 }
 /* Jumbotron end */
 /* Small size */
