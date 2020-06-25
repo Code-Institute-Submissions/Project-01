@@ -116,6 +116,16 @@
 .btn-primary{
     margin: 10px;
 }
+.padding-footer{
+    height:60px;
+}
+.card-title{
+    font-size:15px;
+}
+.card-link{
+    display: block;
+    font-size: 12px;
+}
 /* Small size */
 @media only screen and (max-width: 434px) {
 .logo {
