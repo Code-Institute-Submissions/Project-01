@@ -93,11 +93,14 @@
 .icons-display{
     padding-top: 15px;
 }
-.row{
-    width:721px;
-}
 .topsection{
     margin-top:30px!important;
+}
+
+#card-container{
+    width:fill;
+    display:flex;
+    justify-content: center;
 }
 /* Jumbotron end */
 /* Small size */
