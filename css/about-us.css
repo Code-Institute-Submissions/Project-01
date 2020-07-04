@@ -67,4 +67,12 @@
     display: block;
     font-size: 12px;
 }
+#top-banner-img{
+    background-image: url(../image/jumbo-2.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+#top-banner{
+    height:30vh!important;
+}
 /* footer end */
