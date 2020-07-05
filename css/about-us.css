@@ -96,10 +96,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+#info-delivery{
+    height: 20vh;
+    width:auto;
+    background: url(../image/infographic/infographic-01.png;
+}
+#info-delivery:hover{
 
 }
-#celltwo{
-    padding: 20px;
-}
+
 
 /* footer end */
