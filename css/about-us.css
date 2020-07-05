@@ -79,8 +79,27 @@
 #cellone{
     display: flex;
     justify-content: center;
+    width: 300px; 
+    height: auto;
+    background: url(../image/Hup-exterior.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    transition:0.3s;
+}
+#cellone:hover{
+    display: flex;
+    justify-content: center;
+    width: 300px; 
+    height: auto;
+    background: url(../image/interior.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
 }
 #celltwo{
-    background-color: blue;
+    padding: 20px;
 }
+
 /* footer end */
