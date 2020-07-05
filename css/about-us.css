@@ -75,4 +75,12 @@
 #top-banner{
     height:30vh!important;
 }
+
+#cellone{
+    display: flex;
+    justify-content: center;
+}
+#celltwo{
+    background-color: blue;
+}
 /* footer end */
