@@ -97,14 +97,33 @@
     background-size: cover;
     background-position: bottom;
 }
-#info-delivery{
-    height: 20vh;
-    width:auto;
-    background: url(../image/infographic/infographic-01.png;
-}
-#info-delivery:hover{
 
+.infographic{
+    padding:40px;
 }
 
+@media screen and (min-width: 731px){
+
+.info{
+    display: block;
+    width: 200px;
+    height:auto;
+}
+
+.overlay{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.info1:hover .overlay{
+    height:100%;
+}
+}
 
 /* footer end */
