@@ -1,3 +1,4 @@
+/* general styling */
 /* navbar styling start*/
     .navbar {
     background-color: #081870;
@@ -43,7 +44,66 @@
         color:#0A1F8F!important;
     }
 /* navbar styling end */
-/* footer start */
+/* Slider Start */
+.carousel{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.carousel-inner{
+    height:250px;
+    width:721px;
+}
+.d-block{
+    position: center!important;
+}
+/* Slider End */
+/* Jumbotron Start */
+.jumbotron{
+    background-image: url(../image/jumbo-img.jpg); 
+    background-size: fit;
+    background-size: cover;
+    background-position: center;>
+}
+.backing{
+    background-color: rgba(8,24,112,0.1);
+    padding:50px;
+}
+.app{
+    display: flex;
+    justify-content: center;
+}
+.app-2{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.icons-display{
+    display: flex;
+    justify-content: space-around;
+    width: 721px;
+}
+.icons-display-2{
+    display: flex;
+    justify-content: space-around;
+    width: 721px;
+}
+.tab{
+    height:60px;
+}
+.icons-display{
+    padding-top: 15px;
+}
+.topsection{
+    margin-top:30px!important;
+}
+
+#card-container{
+    width:fill;
+    display:flex;
+    justify-content: center;
+}
+/* Jumbotron end */
 .footer {
   position: fixed;
   left: 0;
@@ -58,7 +118,7 @@
     margin: 10px;
 }
 .padding-footer{
-    height:60px;
+    height:10vh;
 }
 .card-title{
     font-size:15px;
@@ -67,42 +127,10 @@
     display: block;
     font-size: 12px;
 }
-#top-banner-img{
-    background-image: url(../image/jumbo-2.jpg); 
-    background-size: cover;
-    background-position: center;
-}
-#top-banner{
-    height:30vh!important;
-}
-/* intro 1 Start*/
-#celltwo h2{
-    transition:0.5s;
-}
-#cellone{
+/* Small size */
+@media only screen and (max-width: 434px) {
+.logo {
     display: flex;
     justify-content: center;
-    width: 300px; 
-    height: auto;
-    background: url(../image/Hup-exterior.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    transition:0.3s;
-}
-#cellone:hover{
-    display: flex;
-    justify-content: center;
-    width: 300px; 
-    height: auto;
-    background: url(../image/interior.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}
-/* About Us End*/
-
-
-@media screen and (min-width: 731px){
-
-/* footer end */
+    width:100%;
+  }

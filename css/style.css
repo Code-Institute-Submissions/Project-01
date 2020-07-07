@@ -48,7 +48,7 @@
 .carousel{
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .carousel-inner{
     height:250px;
@@ -118,7 +118,7 @@
     margin: 10px;
 }
 .padding-footer{
-    height:60px;
+    height:10vh;
 }
 .card-title{
     font-size:15px;
