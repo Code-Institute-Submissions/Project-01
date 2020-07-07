@@ -1,0 +1,77 @@
+/* general styling */
+/* navbar styling start*/
+    .navbar {
+    background-color: #081870;
+    }
+    .logo {
+    max-width:100%;
+    height:auto;
+    }
+
+    .btn{
+        color: white;
+    }
+    .btn-outline-success-inline{
+    background-color:  #050440;
+    }
+    .btn:hover{
+        color:#081870;
+    }
+    .btn-outline-success-inline:hover{
+    background-color: white;
+    }
+    .form-control-inline{
+        border-style: none;
+        border-radius: 3px;
+    }
+    .placeholder{
+        margin-left: 2px;
+    }
+    .nav-link{
+        color:white;
+    }
+    .navbar-toggler{
+        background-color: white;
+        margin-bottom:none;
+    }
+    .navbar-toggler-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+    .fa-bars{
+        color:#0A1F8F!important;
+    }
+/* navbar styling end */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 8vh;
+  width: 100%;
+  background-color:#081870;
+  color: white;
+  text-align: center;
+}
+.btn-primary{
+    margin: 10px;
+}
+.padding-footer{
+    height:10vh;
+}
+.card-title{
+    font-size:15px;
+}
+.card-link{
+    display: block;
+    font-size: 12px;
+}
+/* Small size */
+@media only screen and (max-width: 434px) {
+.logo {
+    display: flex;
+    justify-content: center;
+    width:100%;
+  }
