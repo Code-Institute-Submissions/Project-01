@@ -1,0 +1,8 @@
+.list-group{
+    padding-top:10px;
+}
+.list-group-item{
+    border:none!important;
+    display: flex;
+    justify-content: flex-end;
+}

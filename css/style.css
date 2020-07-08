@@ -46,8 +46,13 @@
 /* CTA */
 
 /* Footer */
-#couplephoto{
+.footer{
+    height: 30vh;
+}
+
+.couple{
     background:url(../image/couple.png);
+    height:inherit;
 }
 /* Footer */
 
