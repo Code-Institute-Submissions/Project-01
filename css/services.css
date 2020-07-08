@@ -58,13 +58,24 @@
     position: center!important;
 }
 /* Slider End */
-/* Jumbotron Start */
-.jumbotron{
-    background-image: url(../image/jumbo-img.jpg); 
-    background-size: fit;
-    background-size: cover;
-    background-position: center;>
+/* Parallax Start */
+.parallax {
+  /* The image used */
+  background-image: url("../image/Hup-exterior.png");
+
+  /* Set a specific height */
+  height: 500px;
+  margin-bottom: 50px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
+
+/* Parallax End  */
+
 .backing{
     background-color: rgba(8,24,112,0.1);
     padding:50px;
