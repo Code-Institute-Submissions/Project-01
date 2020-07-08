@@ -1,4 +1,7 @@
 /* Mega Menu Design */
+.navbar{
+    background-color:transparent;
+}
 #megamenu{
     padding: 20px;
 }
@@ -9,20 +12,23 @@
 /* Cover */
 .jumbotron{
     height:100vh;
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(10, 31, 143, 0.73)),url(../image/index-home-jumbotron.jpg);
+    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(10, 31, 143, 1)),url(../image/index-home-jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
     align-items: flex-end;
+    margin-bottom:0px;
+    border-radius: 0 !important;
 }
 /* Cover */
 /* Short intro */
 .short-intro{
+    background-color: rgba(10, 31, 143, 1);
     display:flex;
     justify-content: center;
     align-items: center;
-    height:40vh;
+    height:60vh;
 }
 #since2006{
     padding-right: 20px;
@@ -39,9 +45,11 @@
 }
 /* CTA */
 
-/* Animation */
-
-/* Animation */
+/* Footer */
+#couplephoto{
+    background:url(../image/couple.png);
+}
+/* Footer */
 
 @media only screen and (max-width: 600px){
     .title-card{
