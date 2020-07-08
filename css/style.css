@@ -13,12 +13,38 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.title-card{
-    
+    display:flex;
+    align-items: flex-end;
 }
 /* Cover */
+/* Short intro */
+.short-intro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+}
+#since2006{
+    padding-right: 20px;
+}
+/* Short intro */
+/* Collage */
+
+
+
+/* Collage */
+/* CTA */
+.cta{
+    margin:50px;
+}
+/* CTA */
 
 /* Animation */
 
 /* Animation */
+
+@media only screen and (max-width: 600px){
+    .title-card{
+        margin-left:2vh;
+}
+}
