@@ -1,113 +1,77 @@
-/* navbar styling start*/
-    .navbar {
-    background-color: #081870;
-    }
-    .logo {
-    max-width:100%;
-    height:auto;
-    }
-
-    .btn{
-        color: white;
-    }
-    .btn-outline-success-inline{
-    background-color:  #050440;
-    }
-    .btn:hover{
-        color:#081870;
-    }
-    .btn-outline-success-inline:hover{
-    background-color: white;
-    }
-    .form-control-inline{
-        border-style: none;
-        border-radius: 3px;
-    }
-    .placeholder{
-        margin-left: 2px;
-    }
-    .nav-link{
-        color:white;
-    }
-    .navbar-toggler{
-        background-color: white;
-        margin-bottom:none;
-    }
-    .navbar-toggler-icon{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    }
-    .fa-bars{
-        color:#0A1F8F!important;
-    }
-/* navbar styling end */
-/* Body Start  */
-/* Parallax start */
-.parallax {
-  /* The image used */
-  background-image: url("image/Hup-exterior.png");
-
-  /* Set a specific height */
-  height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-/* Parallax end */
-#top-banner{
-    height:30vh!important;
+/* Mega Menu Design */
+.navbar{
+    background-color: rgba(12, 48, 126, 0.9)!important;
 }
-/* intro 1 Start*/
-#celltwo h2{
-    transition:0.5s;
+#megamenu{
+    padding: 20px;
 }
-#cellone{
-    display: flex;
-    justify-content: center;
-    width: 300px; 
-    height: auto;
-    background: url(../image/Hup-exterior.png);
-    background-repeat: no-repeat;
+/* Mega Menu Design */
+/* Menu Login */
+
+/* Menu Login */
+/* Cover */
+#title-copy{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+.jumbotron{
+    height:100vh;
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(12, 48, 126, 1)),url(../image/index-home-jumbotron.jpg);
     background-size: cover;
-    background-position: bottom;
-    transition:0.3s;
-}
-#cellone:hover{
-    display: flex;
-    justify-content: center;
-    width: 300px; 
-    height: auto;
-    background: url(../image/interior.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}
-/* Body End  */
-/* footer start */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 8vh;
-  width: 100%;
-  background-color:#081870;
-  color: white;
-  text-align: center;
-}
-.btn-primary{
-    margin: 10px;
-}
-.padding-footer{
-    height:60px;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:0px;
+    border-radius: 0 !important;
 }
 
-/* About Us End*/
+/* Cover */
+/* Short intro */
+.short-intro{
+    background-color: rgb(12, 48, 126);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+}
+#aboutcopy{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+#since2006{
+    padding-right: 20px;
+}
+/* Short intro */
+/* Collage */
 
 
-@media screen and (min-width: 731px){
 
-/* footer end */
+/* Collage */
+/* CTA */
+.center{
+    display:flex;
+    justify-content: center;
+}
+/* CTA */
+
+/* Footer */
+.footer{
+    height: 30vh;
+}
+
+.couple{
+    background:url(../image/couple.png);
+    height:inherit;
+}
+/* Footer */
+
+@media only screen and (max-width: 600px){
+    .title-card{
+        margin-left:2vh;
+}
+}
