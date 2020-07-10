@@ -6,67 +6,26 @@
     padding: 20px;
 }
 /* Mega Menu Design */
-/* Menu Login */
-
-/* Menu Login */
-/* Cover */
-#title-copy{
-    font-family: 'Lato', sans-serif;
-    color:white;
+/* video background */
+.banner{
+    height:40vh;
 }
-p {
-    font-family: 'Lato', sans-serif;
+#bgvid {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
 }
-.jumbotron{
-    height:100vh;
-    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(12, 48, 126, 1)),url(../image/index-home-jumbotron.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:0px;
-    border-radius: 0 !important;
+.bgintro{
+    background-color: rgba(12, 48, 126, 0.6);
 }
-
-/* Cover */
-/* Short intro */
-.short-intro{
-    background-color: rgb(12, 48, 126);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:90vh;
-}
-#aboutcopy{
-    font-family: 'Lato', sans-serif;
-    color:white;
-}
-#since2006{
-    padding-right: 20px;
-}
-/* Short intro */
-/* Collage */
-
-
-
-/* Collage */
-/* CTA */
-.center{
-    display:flex;
-    justify-content: center;
-}
-/* CTA */
-
-/* Footer */
-.footer{
-    height: 30vh;
-}
-
-.couple{
-    background:url(../image/couple.png);
-    height:inherit;
+.content {
+  position: relative;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 /* Footer */
 
