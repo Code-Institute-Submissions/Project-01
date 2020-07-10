@@ -1,6 +1,6 @@
 /* Mega Menu Design */
 .navbar{
-    background-color:transparent;
+    background-color: rgba(12, 48, 126, 1)!important;
 }
 #megamenu{
     padding: 20px;
@@ -12,7 +12,7 @@
 /* Cover */
 .jumbotron{
     height:100vh;
-    background: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(10, 31, 143, 1)),url(../image/index-home-jumbotron.jpg);
+    background:linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(12, 48, 126, 1)),url(../image/index-home-jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +24,7 @@
 /* Cover */
 /* Short intro */
 .short-intro{
-    background-color: rgba(10, 31, 143, 1);
+    background-color: rgb(12, 48, 126);
     display:flex;
     justify-content: center;
     align-items: center;
