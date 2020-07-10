@@ -1,6 +1,6 @@
 /* Mega Menu Design */
 .navbar{
-    background-color: rgba(12, 48, 126, 1)!important;
+    background-color: rgba(12, 48, 126, 0.9)!important;
 }
 #megamenu{
     padding: 20px;
@@ -10,6 +10,13 @@
 
 /* Menu Login */
 /* Cover */
+#title-copy{
+    font-family: 'Lato', sans-serif;
+    color:white;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
 .jumbotron{
     height:100vh;
     background:linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(12, 48, 126, 1)),url(../image/index-home-jumbotron.jpg);
@@ -17,10 +24,12 @@
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     margin-bottom:0px;
     border-radius: 0 !important;
 }
+
 /* Cover */
 /* Short intro */
 .short-intro{
@@ -28,7 +37,11 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height:60vh;
+    height:90vh;
+}
+#aboutcopy{
+    font-family: 'Lato', sans-serif;
+    color:white;
 }
 #since2006{
     padding-right: 20px;
@@ -41,7 +54,11 @@
 /* Collage */
 /* CTA */
 .cta{
-    margin:50px;
+    margin:20vh;
+}
+.center{
+    display:flex;
+    justify-content: center;
 }
 /* CTA */
 
