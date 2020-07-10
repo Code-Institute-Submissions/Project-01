@@ -1,6 +1,6 @@
 /* Mega Menu Design */
 .navbar{
-    background-color:transparent;
+    background-color: rgba(12, 48, 126, 0.9)!important;
 }
 #megamenu{
     padding: 20px;
@@ -16,14 +16,24 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  /* Set a specific height */
   min-height: 40vh; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+    .googlemap {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .googlemap iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
 /* Footer */
