@@ -50,6 +50,8 @@ p {
 .aboutbg{
     background: url(../image/couple.png);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Short intro */
@@ -59,15 +61,25 @@ p {
 
 /* Collage */
 /* CTA */
+.cta{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 .center{
     display:flex;
     justify-content: center;
 }
+.short-intro{
+    padding:10px;
+}
 /* CTA */
 
 /* Footer */
-.footer{
-    height: 30vh;
+.bg-blue{
+    background-color: rgba(12, 48, 126, 0.9)!important;
+}
+h5 {
+    color:white;
 }
 
 .couple{
