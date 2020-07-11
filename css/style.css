@@ -46,6 +46,12 @@ p {
 #since2006{
     padding-right: 20px;
 }
+
+.aboutbg{
+    background: url(../image/couple.png);
+    background-position: center;
+}
+
 /* Short intro */
 /* Collage */
 

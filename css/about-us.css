@@ -6,31 +6,21 @@
     padding: 20px;
 }
 /* Mega Menu Design */
-/* video background */
-.banner{
-    height:40vh;
-}
-#bgvid {
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.bgintro{
-    background-color: rgba(12, 48, 126, 0.6);
-}
-.content {
-  position: relative;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-/* Footer */
+/* Menu Login */
 
-@media only screen and (max-width: 600px){
-    .title-card{
-        margin-left:2vh;
+/* Menu Login */
+
+.dcouple {
+  /* The image used */
+  background-image: url(../image/cover1.jpg);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; 
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-}
+
+/* Footer */
