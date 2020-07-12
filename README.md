@@ -10,9 +10,6 @@ This project brief was to create a website for Singapore retailer, Hupfarri. Due
 
 ## Design Principle
 The conceptualisation behind Hupfarri website comes from multiple sources. At the beginning, I wanted to model the website after popular South-East Asian E-Commerce platform Lazada. However, upon review, the design did not gel well with the informational element required for a business to share it’s history. Hence, the current design was tweaked to incorporate a more corporate feel with full-width images to provide stronger visual branding for the company. 
-    <html>
-        <img src="gif1.gif">
-    </html>
 
 ## Color Palette
 Hupfarri’s RGB color (12,48,126) were used with a  opacity of 90% given to create a “faded” effect to the brand’s colour. The rationale for a consistent colour throughout the website is to improve brand recognisability and gel with in-store design and brand guide. 
