@@ -63,13 +63,20 @@
 
 }
 /* Container Fluid Stretch!  */
-.blkback{
-    display: none;
-}
+
 .blkback:hover{
     background-color:rgba(12, 48, 126, 0.9);
     height: 300px;
     width: 300px;
     padding: 50px;
+}
+.bg-blue{
+    background-color: rgba(12, 48, 126, 0.9)!important;
+}
+h5 {
+    color:white;
+}
+.divider{
+    height:10vh;
 }
 /* Footer */
