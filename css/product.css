@@ -1,3 +1,9 @@
+.navbar{
+    background-color: rgba(12, 48, 126, 0.9)!important;
+}
+#megamenu{
+    padding: 20px;
+}
 .list-group{
     padding-top:10px;
 }
@@ -6,3 +12,21 @@
     display: flex;
     justify-content: flex-end;
 }
+/* Footer */
+.bg-blue{
+    background-color: rgba(12, 48, 126, 0.9)!important;
+}
+h5 {
+    color:white;
+}
+
+.couple{
+    background:url(../image/couple.png);
+    height:inherit;
+}
+.card-footer{
+    background-color: rgba(12, 48, 126, 0.9)!important;
+    display:flex;
+    justify-content: space-between;
+}
+/* Footer */

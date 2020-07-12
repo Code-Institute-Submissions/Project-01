@@ -72,6 +72,10 @@ p {
 .short-intro{
     padding:10px;
 }
+.btn-secondary{
+    width:80%;
+    background-color: rgba(12, 48, 126, 0.9);
+}
 /* CTA */
 
 /* Footer */
